@@ -1,0 +1,21 @@
+{
+  "name": "image-search-service",
+  "version": "1.0.0",
+  "description": "Image Search Service",
+  "main": "server.js",
+  "scripts": {
+    "test": "node test/ImageSearchControllerTest.js",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "image",
+    "search",
+    "service"
+  ],
+  "author": "anonymint",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^1.2.0",
+    "express": "^4.13.3"
+  }
+}
