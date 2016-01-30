@@ -11,11 +11,13 @@ const recentSearchNode = db('recentSearch');
 function Repo() {
 
 	this.save = function(term) {
+		console.log('Save term:'+term);
 		recentSearchNode.push({ term: term, when: new Date().toISOString()})
 	}
 
 	this.recentSearch = function(amount) {
 		var amount = amount || 20;
+		console.log(recentSearchNode);
 		return recentSearchNode.chain()
 							   .reverse('when')
 							   .take(amount)
