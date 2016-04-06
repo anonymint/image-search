@@ -4,7 +4,7 @@
   "description": "Image Search Service",
   "main": "server.js",
   "scripts": {
-    "test": "node test/ImageSearchTest.js",
+    "test": "node test/imageSearchTest.js",
     "start": "node server.js"
   },
   "keywords": [
