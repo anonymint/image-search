@@ -1,4 +1,4 @@
-# Image Search Service
+# Image Search Service [![Build Status](https://travis-ci.org/anonymint/image-search.svg?branch=master)](https://travis-ci.org/anonymint/image-search)
 
 This is backend image search powered by 500px.
 
